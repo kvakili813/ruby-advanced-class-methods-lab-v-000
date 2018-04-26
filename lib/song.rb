@@ -52,6 +52,5 @@ class Song
     song.artist_name = parts[0]
     song.name = parts[1]
     song.name = parts[1].gsub(".mp3", "")
-    binding.pry
   end
 end
