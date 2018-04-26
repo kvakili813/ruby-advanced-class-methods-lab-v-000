@@ -60,4 +60,5 @@ class Song
     song.artist_name = parts[0]
     song.name = parts[1].gsub(".mp3", "")
     song.save
+  end
 end
