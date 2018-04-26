@@ -52,7 +52,5 @@ class Song
 
     song.artist_name = parts[0]
     binding.pry
-
-
   end
 end
