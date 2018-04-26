@@ -51,7 +51,7 @@ class Song
     song = self.create
     binding.pry
     song.artist_name
-    
-    
+
+
   end
 end
