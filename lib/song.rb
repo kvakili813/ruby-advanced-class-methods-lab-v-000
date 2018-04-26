@@ -51,6 +51,6 @@ class Song
     song = self.create
     song.artist_name = parts[0]
     song.name = parts[1]
-    song.name.gsub
+    parts[1].gsub
   end
 end
