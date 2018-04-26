@@ -50,7 +50,7 @@ class Song
     parts = file.split(" - ")
     song = self.create
     binding.pry
-    song.artist_name
+    song.artist_name = parts[0]
 
 
   end
