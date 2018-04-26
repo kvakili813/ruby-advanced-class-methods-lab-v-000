@@ -49,8 +49,6 @@ class Song
   def self.new_from_filename(file)
     parts = file.split(" - ")
     song = self.create
-
     song.artist_name = parts[0]
-    binding.pry
   end
 end
