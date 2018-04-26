@@ -61,4 +61,8 @@ class Song
     song.name = parts[1].gsub(".mp3", "")
     song.save
   end
+
+  def self.destroy_all
+    @@all.new
+  end
 end
