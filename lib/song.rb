@@ -46,8 +46,8 @@ class Song
     @@all.sort_by {|song| song.name}
   end
 
-  def self.new_from_filename(name)
-    song = Song.new
-    song.name = name
+  def self.new_from_filename(file)
+    parts = file.split(" - ")
+    binding.pry
   end
 end
